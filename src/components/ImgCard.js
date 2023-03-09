@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import {Link} from 'react-router-dom';
-import test from './ImgCard.json'
+import test from './ImgCard.json' //ImgCard.json <<<< 테스트용 데이터
 
 
    
