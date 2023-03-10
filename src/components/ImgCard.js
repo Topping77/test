@@ -16,7 +16,7 @@ export default function MasonryImageList() {
     <Box sx={{ width: 'auto', height: 'auto',marginLeft:30,marginRight:30,marginTop:10}}>
       <ImageList variant="masonry" cols={3} gap={8}>
         {test.itemData.map((item) => (
-          <ImageListItem key={item.img}>
+          <ImageListItem key={item.img} className="bg-image hover-zoom">
 
         
             <img  

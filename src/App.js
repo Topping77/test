@@ -3,6 +3,7 @@ import './App.css'
 import './components/Layout/header.css'
 import Footer from './components/Layout/footer'
 import ImgCard from './components/ImgCard'
+import Main from './components/sidebar'
 
 
 
@@ -13,13 +14,15 @@ function App() {
      <Header/>     {/* src/Layout/Header에서 navbar를 불러옴 */}
     </div>
     
+    
+    <Main />
+      
+      
+      
+  
 
-    <div>
-      <ImgCard />
-    </div>
     
   
-   
     <Footer/>
     
     

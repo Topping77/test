@@ -61,17 +61,16 @@ export default function App() {
               </MDBDropdown>
             </MDBNavbarItem>
 
-            <MDBNavbarItem>
-              <MDBNavbarLink  href='#' tabIndex={-1} aria-disabled='true'>
-                Test
-              </MDBNavbarLink>
-            </MDBNavbarItem>
           </MDBNavbarNav>
 
+        
           <form className='d-flex input-group w-auto'>
             <input type='search' className='form-control' placeholder='검색' aria-label='Search' />
             <MDBBtn color='primary'>Search</MDBBtn>  
           </form>
+
+
+
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
