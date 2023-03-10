@@ -19,7 +19,7 @@ function App() {
   
   const url = 'https://naver.com'   //이미지박스에 주소 걸기 테스트용
 
-
+  //여기서부터 좌측 사이드바 부분
   return (
     <div id="app"  style={({ height: "auto" }, { display: "flex" })}>
       <Sidebar 
@@ -37,7 +37,7 @@ function App() {
             style={{ textAlign: "center" }}
           >
             {" "}
-            <h2>Admin</h2>
+            
           </MenuItem>
 
           <MenuItem icon={<HomeOutlinedIcon />}>Home</MenuItem>
@@ -62,7 +62,7 @@ function App() {
               alt={item.title}
               onClick={()=>{window.open(url)}}
               />
-        
+            
          
             
           </ImageListItem>

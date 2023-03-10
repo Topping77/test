@@ -2,7 +2,6 @@ import Header from './components/Layout/header'
 import './App.css'
 import './components/Layout/header.css'
 import Footer from './components/Layout/footer'
-import ImgCard from './components/ImgCard'
 import Main from './components/sidebar'
 
 
@@ -17,12 +16,7 @@ function App() {
     
     <Main />
       
-      
-      
-  
 
-    
-  
     <Footer/>
     
     
