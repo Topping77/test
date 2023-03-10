@@ -17,7 +17,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 function App() {
   const { collapseSidebar } = useProSidebar();
   
-  const url = 'https://naver.com'   //이미지박스에 주소 걸기 테스트용
+  
 
   //여기서부터 좌측 사이드바 부분
   return (
@@ -51,18 +51,21 @@ function App() {
 
       {/* 여기서부터는 메인 이미지 카드부분 */}
       <main>
-      <Box sx={{ width: 'auto', height: 'auto',marginLeft:25,marginRight:25,marginTop:10}}>
+      
+      <Box sx={{ width: 'auto', height: 'auto',marginLeft:35,marginRight:20,marginTop:10}}>
       <ImageList variant="masonry" cols={3} gap={8}>
+        
         {test.itemData.map((item) => (
+          
           <ImageListItem key={item.img} className="bg-image hover-zoom">
             
-        
+          <a href={item.test}>
             <img  
-              src={item.img}
+              src={`${item.img}?w=400&fit=crop&auto=format`}
+              srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               alt={item.title}
-              onClick={()=>{window.open(url)}}
               />
-            
+          </a>
          
             
           </ImageListItem>
